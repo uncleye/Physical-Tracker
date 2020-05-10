@@ -1,0 +1,179 @@
+//  Localizable.strings
+//  PhysicalTracker
+//
+//  Created by Christophe DURAND on 07/01/2020.
+//  Copyright © 2020 Christophe DURAND. All rights reserved.
+
+
+//-------------------------------- Categories
+"ex_categories" = "Niveau d\'activité physique|Endurance|Force|Equilibre|Souplesse";
+"ex_category_keys" = "physical_level|stamina|force|balance|stretch";
+
+
+//-------------------------------- Physical Level
+"physical_level_exs" = "Ricci & Gagnon";
+"physical_level_ex_keys" = "ricci";
+"physical_level_helper_text" = "2 minutes (9 questions)";
+"physical_level_instructions" = "Questionnaire de Ricci & Gagnon";
+"physical_level_duration" = "-1";
+
+
+//Physical Level - Ricci Survey
+"ricci_questions" = "Combien de temps passez-vous en position assise par jour (loisirs, télé, ordinateur, travail, etc) ?|Pratiquez-vous régulièrement une ou des activités physiques ?|À quelle fréquence pratiquez-vous l’ensemble de ces activités ?|Combien de minutes consacrez-vous en moyenne à chaque séance d’activité physique ?|Habituellement, comment percevez-vous votre effort ?|Quelle intensité d’activité physique votre travail requiert-il ?|En dehors de votre travail régulier, combien d’heures consacrez-vous par semaine aux travaux légers : bricolage, jardinage, ménage, etc. ?|Combien de minutes par jour consacrez-vous à la marche ?|Combien d’étages, en moyenne, montez-vous à pied chaque jour ?| ";
+"ricci_grading_advices" = "Essayez d\'augmenter le temps consacré à votre pratique d\'activité physique quotidienne.|Augmentez progressivement votre niveau d\'activité physique en bougeant au quotidien plus longtemps et plus souvent (marche, escaliers, pauses actives au travail, etc.). Vous pouvez commencer par intégrer une séance par semaine en plus de vos activités quotidiennes.|Essayez de pratiquer un peu plus souvent votre ou vos activités (ex : si vous faites 1 séance par semaine essayez d\'en faire 2, si votre séance dure 30 min essayez de passer à 45 min).|Vous mettez toutes les chances de votre côté pour être en bonne santé ! À vous de voir ce que vous pouvez améliorer au quotidien. Il faut que cela reste réalisable pour pouvoir mettre en place les changements sur du long terme. Pensez à varier le type d\'activité, le rythme et l\'intensité.|Ne négligez surtout pas la récupération qui est essentielle au corps pour progresser et se protéger des blessures. La récupération fait partie de l\'entrainement et contribue à l\'amélioration des performances.";
+"ricci_grading_scale" = "10|19|28|37";
+"ricci_grading" = "Non Actif|Faiblement Actif|Moyennement Actif|Actif|Très actif";
+
+
+//Physical Level - Ricci Survey Answers
+"answers_0" = "+ de 5h|4 à 5h|3 à 4h|2 à 3h|Moins de 2h";
+"answers_1" = "Non|Oui";
+"answers_1_scores" = "1|5";
+"answers_2" = "1 à 2 fois / mois|1 fois / semaine|2 fois / semaine|3 fois / semaine|4 fois / semaine";
+"answers_3" = "Moins de 15 min|16 à 30 min|31 à 45 min|46 à 60 min|Plus de 60 min";
+"answers_4" = "1 (Effort très facile)|2|3|4|5 (Effort difficile)";
+"answers_5" = "Légère|Modérée|Moyenne|Intense|Très intense";
+"answers_6" = "Moins de 2h|3 à 4h|5 à 6h|7 à 9h|Plus de 10h";
+"answers_7" = "Moins de 15 min|16 à 30 min|31 à 45 min|46 à 60 min|Plus de 60 min";
+"answers_8" = "Moins de 2|3 à 5|6 à 10|11 à 15|Plus de 15";
+
+
+//-------------------------------- Stamina
+"stamina_exs" = "Steptest|6 minutes marche";
+"stamina_ex_keys" = "step|six_walk";
+"stamina_helper_text" = "4 minutes|6 minutes";
+
+
+//Stamina - Steptest
+"step_title" = "Steptest";
+"step_pulse_duration" = "10";
+"step_duration" = "180";
+"step_instructions" = "Équipement : Une marche de 30 cm.\n\nInstructions : Monter et descendre la marche en 4 temps sur une cadence de 96 bips par minute pendant 3 minutes puis s\’asseoir pendant une minute de repos. Noter ensuite sa fréquence cardiaque.";
+"step_grading_scale_age" = "26|36|46|56|66";
+"step_grading_scale_female" = "94,103,111,121|93,102,111,120|97,105,113,121|102,111,119,128|104,112,119,128|102,112,122,127";
+"step_grading_scale_male" = "85,94,101,108|86,95,103,111|89,99,106,114|94,102,112,120|95,101,110,118|93,103,111,119";
+
+
+//Stamina - Six Walk
+"six_walk_title" = "6 minutes marche";
+"six_walk_pulse_duration" = "-1";
+"six_walk_duration" = "360";
+"six_walk_instructions" = "Équipement : Terrain plat.\n\nInstructions : Marcher le plus de mètres en 6 minutes. Noter sa fréquence cardiaque en fin d\’épreuve.";
+"six_walk_grading_scale_age" = "30|40|50|60";
+"six_walk_grading_scale_female" = "672,707,742,777|614,649,684,719|556,591,626,661|498,533,568,603|441,476,511,546";
+"six_walk_grading_scale_male" = "725,763,801,839|675,713,751,789|624,662,700,738|575,613,651,689|524,562,600,638";
+
+
+//-------------------------------- Force
+"force_exs" = "Chaise|Debout-assis|Shirado|Sorensen|Hand Grip";
+"force_ex_keys" = "chair|sit_stand|shirado|sorensen|hand_grip";
+"force_helper_text" = "1–3 minutes|30 secondes|1–3 minutes|1–3 minutes|30 secondes";
+
+
+//Force - Chair
+"chair_title" = "Chaise";
+"chair_duration" = "0";
+"chair_instructions" = "Instructions : Se placer dos contre un mur, pieds écartés de 20 cm, glisser vers le bas en fléchissant les jambes et en éloignant les pieds de façon à obtenir un angle de 90° entre le tronc et la cuisse et entre la cuisse et la jambe.\n\nEssayer de tenir la position le plus longtemps possible.";
+"chair_grading_scale" = "30|45|90|180";
+"chair_grading_scale_age" = "20|29|39|49|59";
+"chair_grading_scale_female" = "30,45,90,180|30,45,90,180|30,45,90,180|30,45,90,180|30,45,90,180";
+"chair_grading_scale_male" = "30,45,90,180|30,45,90,180|30,45,90,180|30,45,90,180|30,45,90,180";
+
+//Force - Six Stand
+"sit_stand_title" = "Debout-assis";
+"sit_stand_duration" = "30";
+"sit_stand_instructions" = "Équipement : Une chaise sans accoudoir.\n\nInstructions : Faire le maximum de mouvement de se lever puis de s\’asseoir pendant 30 secondes, bras en croix sur la poitrine.";
+"sit_stand_grading_scale_age" = "30|40|50|60";
+"sit_stand_grading_scale_female" = "21,27,32,34|18,20,22,26|16,18,22,27|12,14,16,18|11,13,15,17";
+"sit_stand_grading_scale_male" = "19,25,30,33|21,31,33,34|19,19,20,25|13,15,18,21|13,15,17,19";
+
+
+//Force - Shirado
+"shirado_title" = "Shirado";
+"shirado_duration" = "0";
+"shirado_instructions" = "Équipement : Tapis de sol.\n\nInstructions : Allongé sur le dos, hanches et genoux fléchis à 90°, bras croisés sur la poitrine et mains placées sur les épaules. Les omoplates sont décollées du sol avec la nuque fléchie.\n\nEssayer de tenir la position le plus longtemps possible.";
+"shirado_grading_scale_age" = "30|60";
+"shirado_grading_scale_female" = "30,60,90,120|30,60,90,120";
+"shirado_grading_scale_male" = "30,60,90,120|30,60,90,120";
+
+
+//Force - Sorensen
+"sorensen_title" = "Sorensen";
+"sorensen_duration" = "0";
+"sorensen_instructions" = "Équipement : Banc.\n\nInstructions : Se placer allongé sur le ventre au bout du banc, crêtes iliaques dans le vide, bras croisés sur la poitrine. Le partenaire maintient les chevilles. Le corps doit être en position droite.\n\nEssayer de tenir la position le plus longtemps possible.";
+"sorensen_grading_scale_age" = "30|40|50|60";
+"sorensen_grading_scale_female" = "55,83,111,134|44,68,92,119|36,57,79,102|25,45,65,85|18,34,51,68";
+"sorensen_grading_scale_male" = "60,91,123,156|55,83,111,139|44,68,92,119|36,57,79,102|25,45,65,85";
+
+
+//Force - Hand Grip
+"hand_grip_title" = "Hand Grip";
+"hand_grip_duration" = "-1";
+"hand_grip_instructions" = "Équipement : Dynamomètre.\n\nInstructions : Debout, prendre le dynamomètre dans la main. Tenir la poignée dans le prolongement du bras, à la hauteur de la cuisse et éloignée du corps (angle de 45°). Serrer vigoureusement la poignée en exerçant une force maximale puis faire la même chose avec l\’autre main.";
+"hand_grip_grading_scale_age" = "20|30|40|50|60";
+"hand_grip_grading_scale_female" = "54,59,64,70|55,61,65,70|56,61,66,72|55,59,65,72|51,55,59,64|48,51,54,59";
+"hand_grip_grading_scale_male" = "84,95,103,112|97,106,113,123|97,105,113,122|94,102,110,118|87,96,102,109|79,86,93,101";
+
+
+//-------------------------------- Balance
+"balance_exs" = "Flamand";
+"balance_ex_keys" = "flamingo";
+"balance_helper_text" = "30 secondes";
+
+
+//Balance - Flamingo
+"flamingo_title" = "Flamand";
+"flamingo_duration" = "0";
+"flamingo_duration_text" = "30 secondes";
+"flamingo_instructions" = "Instructions : Chaussé, mains sur les hanches et un pied à plat sur le genou opposé. Fermer les yeux et démarrer le chronomètre. 2 essais par jambe, le meilleur des deux sera pris en compte.\n\nEssayer de tenir la position le plus longtemps possible.\n\nFin du test si :\n-on décolle le pied;\n-on enlève les mains des hanches;\n-on saute;\n-on ouvre les yeux.";
+"flamingo_grading_scale_age" = "30|40|50|60";
+"flamingo_grading_scale_female" = "13,17,21,25|9,13,17,22|8,12,15,19|5,9,13,17|5,8,11,14";
+"flamingo_grading_scale_male" = "16,20,24,28|13,17,21,25|9,13,17,22|8,12,15,19|5,9,13,17";
+
+
+//-------------------------------- Stretch
+"stretch_exs" = "Distance main-sol|Sit and Reach|Souplesse épaules";
+"stretch_ex_keys" = "hand_ground|sit_reach|shoulders";
+"stretch_helper_text" = "30 secondes|30 secondes|30 secondes";
+
+
+//Stretch - Hand Ground
+"hand_ground_title" = "Distance main-sol";
+"hand_ground_duration" = "-1";
+"hand_ground_instructions" = "Instructions : Position debout, jambes en extension. Fléchir la tête et le tronc et faire glisser les mains au contact des membres inférieurs le plus bas possible jusqu\’au sol sans plier les jambes.";
+"hand_ground_grading" = "1. Mains sur les cuisses|2. Mains sur les genoux|3. Mains sur les tibias|4. Le bout des doigts touche le sol|5. Les doigts ou la paume touchent le sol";
+"hand_ground_grading_scale_age" = "20|30|40|50|60";
+"hand_ground_grading_scale_female" = "2,3,4,5|2,3,4,5|2,3,4,5|2,3,4,5|2,3,4,5|2,3,4,5";
+"hand_ground_grading_scale_male" = "2,3,4,5|2,3,4,5|2,3,4,5|2,3,4,5|2,3,4,5|2,3,4,5";
+
+
+//Stretch - Sit Reach
+"sit_reach_title" = "Sit and Reach";
+"sit_reach_duration" = "-1";
+"sit_reach_instructions" = "Équipement : Tapis de sol et flexomètre.\n\nInstructions : Se positionner assis, jambes en extension, plantes de pieds verticales contre le montant du flexomètre. Tendre les mains vers l\’avant et poser les mains l\’une sur l\’autre. Chercher à pousser ses mains le plus loin possible vers l\’avant sans fléchir les genoux et sans à-coup. La position maximale doit être maintenue 3 secondes pour être validée.\n\nRéaliser 2 essais et enregistrer le meilleur des deux.";
+"sit_reach_grading_scale_age" = "20|30|40|50|60";
+"sit_reach_grading_scale_female" = "23,31,39,47|21,30,38,46|21,30,38,46|19,28,37,46|20,28,36,45|18,26,35,43";
+"sit_reach_grading_scale_male" = "20,30,39,48|20,28,37,45|18,27,36,44|16,25,34,43|13,23,32,41|11,21,30,40";
+
+
+//Stretch - Shoulders
+"shoulders_title" = "Souplesse épaules";
+"shoulders_duration" = "-1";
+"shoulders_instructions" = "Instructions : Passer une main par-dessus l\’épaule et la faire glisser dans le dos quasiment dans l\’axe de la colonne vertébrale. Réaliser la même opération avec la seconde main mais cette fois-ci par-dessous l\’épaule.";
+"shoulders_grading" = "1. Je n\'arrive pas à mettre mes mains dans le dos|2. Mes mains ne se touchent pas|3. Les bouts des doigts se touchent|4. Les doigts s\’agrippent|5. Les mains parviennent à se superposer";
+"shoulders_grading_scale_age" = "20|30|40|50|60";
+"shoulders_grading_scale_female" = "2,3,4,5|2,3,4,5|2,3,4,5|2,3,4,5|2,3,4,5|2,3,4,5";
+"shoulders_grading_scale_male" = "2,3,4,5|2,3,4,5|2,3,4,5|2,3,4,5|2,3,4,5|2,3,4,5";
+
+//-------------------------------- Grade Scale Color
+"grade_scale_color" = "#D30000|#FF5200|#FFD200|#02962A|#2249FF";
+
+
+//-------------------------------- BMI Grading Scale
+"bmi_grading_scale" = "18.6|26|31|36|40.1";
+"bmi_grading" = "Insuffisance pondérale|Corpulence normale|Surpoids|Obésité grade 1|Obésité grade 2|Obésité grade 3";
+"bmi_grading_advices" = "Nous vous conseillons d\’en parler à votre médecin.|Bravo !|Un petit effort pour retrouver la ligne ?|Nous vous conseillons d\’en parler à votre médecin.|Nous vous conseillons d\’en parler à votre médecin.|Nous vous conseillons d\’en parler à votre médecin.";
+
+
+//-------------------------------- Student Categories
+"student_categories" = "Sociétés et Humanités|Santé|Sciences|Staps";
