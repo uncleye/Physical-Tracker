@@ -1,0 +1,28 @@
+PODS:
+  - Floaty (4.2.0)
+  - KRActivityIndicatorView (3.0.4)
+  - KRProgressHUD (3.4.4):
+    - KRActivityIndicatorView (= 3.0.4)
+  - SRCountdownTimer (1.1)
+
+DEPENDENCIES:
+  - Floaty (~> 4.2.0)
+  - KRProgressHUD
+  - SRCountdownTimer
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - Floaty
+    - KRActivityIndicatorView
+    - KRProgressHUD
+    - SRCountdownTimer
+
+SPEC CHECKSUMS:
+  Floaty: e2bd5a0f6f7f70899e26ff2da31081c8bee8d1b0
+  KRActivityIndicatorView: 549db10b9578d58bac73db063d8b544e8970f7f2
+  KRProgressHUD: c3b9a48a0ee4824ea13212ac3f1efa50dca021e3
+  SRCountdownTimer: 9c92e444b5403c92f01dd6610299b8c634bc8562
+
+PODFILE CHECKSUM: 7a182f3bd6261dfb8fae2daa6b9855da3f400e5f
+
+COCOAPODS: 1.8.4
